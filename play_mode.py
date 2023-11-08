@@ -47,6 +47,7 @@ def init():
     for zombie in zombies:
         game_world.add_collision_pair('ball:zombie', None, zombie)
 
+
     game_world.add_collision_pair('boy:zombie', boy, None)  # boy가 여러번 등록되는 것 방지.
 
     for zombie in zombies:
